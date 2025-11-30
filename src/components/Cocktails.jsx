@@ -3,7 +3,6 @@ import gsap from "gsap";
 import { cocktailLists, mockTailLists } from '../../constants'
 
 const Cocktails = () => {
-    
     useGSAP(() => {
         const parallaxTimeline = gsap.timeline({
             scrollTrigger: {
